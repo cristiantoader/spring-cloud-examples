@@ -16,6 +16,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @EnableAutoConfiguration
 public class SpringPrincipalClientApp implements ApplicationRunner {
 
+
     @Autowired
     private ApplicationServerConfig applicationServerConfig;
 
